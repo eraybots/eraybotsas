@@ -9,7 +9,7 @@ module.exports = client => {
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Aktif, Komutlar yüklendi!`);
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: ${client.user.username} ismi ile giriş yapıldı!`);
   client.user.setStatus("online");
-  client.user.setActivity(`Youtube'Da TREnesGamer`, { type: 'WATCHING' });
+  client.user.setActivity(`Youtube'Da TREray Gamer`, { type: 'WATCHING' });
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Oyun ismi ayarlandı!`);
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Yeniden Kodlandı`);
 };
